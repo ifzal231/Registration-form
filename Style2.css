@@ -1,0 +1,43 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.navbar{
+    background-color: black;
+    /* border-radius: 5px; */
+}
+.navbar ul{
+  overflow: auto;
+  
+}
+.navbar li{
+    float: left;
+    list-style:none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 13px 30px;
+    /* margin: 18px 30px; */
+    text-decoration: none;
+
+
+
+}
+.navbar li a:hover{
+    color: blue;
+}
+.Search{
+    color: white;
+    float: right;
+    border-radius: 14px;
+    margin: 12px;
+    /* padding: 125px; */
+
+}
+.Search input{
+    margin-right: 120px;
+    border-radius: 125px;
+
+
+}

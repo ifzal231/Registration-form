@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2A3672;
+    justify-content: center;
+}
+
+.img img {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.img {
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    border-radius: 15px;
+}
+
+.input {
+    background-color: white;
+    height: 60vh;
+    width: 40%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 65px;
+}
+
+input {
+    border-radius: 10px;
+    height: 40px;
+    background-color: white;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input {
+    height: 34px;
+    align-items: center;
+    padding-left: 12px;
+}
+
+h3 {
+    margin-left: 180px;
+    background-color: white;
+}
+
+#check {
+    height: 18px;
+    margin-left: 160px;
+}
+
+.combine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+h5 {
+    width: 350%;
+
+    background-color: #fff;
+}
+
+button {
+    background-color: #41518C;
+    padding: 15px 100px 15px 100px;
+    border-radius: 50px;
+    color: aliceblue;
+    margin-left: 180px;
+    font-size: 15px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.Signup,
+.Signemail {
+    text-align: center;
+    padding: 2px;
+    margin: 12px;
+    background-color: white;
+}
+
+p {
+    background-color: #fff;
+}
+
+.Signup p {
+    border: 1px solid #EDEEF3;
+    width: 230px;
+    margin-left: 210px;
+    background-color: #EDEEF3;
+    border-radius: 20px;
+    color: #2D3C7D;
+    padding: 13px 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Signemail {
+    color: #BBBFD1;
+}
+
+.Signup p img {
+    height: 14px;
+    background-color: transparent;
+}
+
+input {
+    border: 1px solid #2D3C7D;
+}
+
+.combine input {
+    accent-color: #2D3C7D;
+}
+
+::placeholder {
+    color: #2D3C7D;
+}
